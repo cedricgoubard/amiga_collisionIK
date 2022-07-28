@@ -1,0 +1,17 @@
+urdf_file_name: "amiga.urdf"
+fixed_frame: "base_link"
+joint_names: [ [ "base_arm_joint", "amiga_arm_shoulder_pan_joint", "amiga_arm_shoulder_lift_joint", "amiga_arm_elbow_joint", "amiga_arm_wrist_1_joint", "amiga_arm_wrist_2_joint", "amiga_arm_wrist_3_joint" ] ]
+joint_ordering: [ "amiga_arm_shoulder_pan_joint", "amiga_arm_shoulder_lift_joint", "amiga_arm_elbow_joint", "amiga_arm_wrist_1_joint", "amiga_arm_wrist_2_joint", "amiga_arm_wrist_3_joint" ]
+ee_fixed_joints: [ "amiga_arm_ee_fixed_joint" ]
+starting_config: [ 1.4486, -1.5882, 2.8274, -1.7977, 2.9845, -0.192 ]
+collision_file_name: "amiga_collisions.yaml"
+collision_nn_file: "amiga_nn"
+path_to_src: "/root/ros_ws/src/relaxed_ik/src"
+axis_types: [ [ "z", "y", "y", "y", "z", "y" ] ]
+velocity_limits: [ 3.14, 3.14, 3.14, 6.28, 6.28, 6.28 ]
+joint_limits: [ [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793] ]
+displacements: [ [ [0.0,0.0,0.181], [0.0,0.176,0.0], [0.0,-0.137,0.613], [0.0,0.0,0.571], [0.0,0.135,0.0], [0.0,0.0,0.12], [0.0,0.117,0.0], [0.0,0.117,0.0] ] ]
+disp_offsets: [ [0.0,0.0,0.3] ]
+rot_offsets: [ [ [0.0,0.0,-1.5705], [0.0,0.0,0.0], [0.0,1.5707963267948966,0.0], [0.0,0.0,0.0], [0.0,1.5707963267948966,0.0], [0.0,0.0,0.0], [0.0,0.0,0.0], [0.0,0.0,1.5707963267948966], [0.0,0.0,1.5707963267948966] ] ]
+joint_types: [ [ "fixed", "revolute", "revolute", "revolute", "revolute", "revolute", "revolute" ] ]
+joint_state_define_func_file: "amiga_joint_state_define"

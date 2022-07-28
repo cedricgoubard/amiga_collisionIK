@@ -1,0 +1,14 @@
+def joint_state_define(x):
+   js = JointState()
+   additional_joints = [
+      "base_drive_wheel_right", "base_drive_wheel_left", "base_to_castor_front_left", 
+      "base_to_castor_back_left", "base_to_castor_front_right", "base_to_castor_back_right", 
+      "castor_to_front_wheel_left", "castor_to_back_wheel_left", "castor_to_front_wheel_right",
+      "castor_to_back_wheel_right", "amiga_gripper_finger_1_joint_1", "amiga_gripper_finger_1_joint_2",
+      "amiga_gripper_finger_1_joint_3", "amiga_gripper_finger_2_joint_1", "amiga_gripper_finger_2_joint_2",
+      "amiga_gripper_finger_2_joint_3", "amiga_gripper_finger_middle_joint_1", "amiga_gripper_finger_middle_joint_2",
+      "amiga_gripper_finger_middle_joint_3", "amiga_gripper_palm_finger_1_joint", "amiga_gripper_palm_finger_2_joint"
+      ]
+   js.name = joint_ordering + additional_joints
+   js.position = tuple(x) + tuple([0] * len(additional_joints))
+   return js
