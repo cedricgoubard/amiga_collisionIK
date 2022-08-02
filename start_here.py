@@ -89,7 +89,7 @@ info_file_name = 'amiga_info.yaml'
 #                'LEFT_WRIST_PITCH', 'LEFT_WRIST_YAW_2'] ]
 #   example 2 shows what this would be for a single end-effector robot, specifically using the UR5 robot
 #   ex2: [ ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint'] ]
-joint_names = [ ['base_arm_joint', 'amiga_arm_shoulder_pan_joint', 'amiga_arm_shoulder_lift_joint', 'amiga_arm_elbow_joint', 'amiga_arm_wrist_1_joint', 'amiga_arm_wrist_2_joint', 'amiga_arm_wrist_3_joint', 'amiga_arm_ee_fixed_joint'] ]
+joint_names = [ ['base_arm_joint', 'amiga_arm_shoulder_pan_joint', 'amiga_arm_shoulder_lift_joint', 'amiga_arm_elbow_joint', 'amiga_arm_wrist_1_joint', 'amiga_arm_wrist_2_joint', 'amiga_arm_wrist_3_joint', 'amiga_arm_wrist_3_link-tool0_fixed_joint', 'arm_gripper_joint'] ]
 ######################################################################################################
 
 
@@ -124,7 +124,7 @@ joint_ordering =  ['amiga_arm_shoulder_pan_joint', 'amiga_arm_shoulder_lift_join
 #   ex1: ee_fixed_joints = ['RIGHT_HAND', 'LEFT_HAND']
 #   For example 2, using the UR5, this is a single chain robot, so it will only have a single end-effector joint
 #   ex2: ee_fixed_joints = ['ee_fixed_joint']
-ee_fixed_joints = [ "amiga_arm_ee_fixed_joint" ]
+ee_fixed_joints = [ "amiga_gripper_palm_tool0" ]
 ######################################################################################################
 
 
