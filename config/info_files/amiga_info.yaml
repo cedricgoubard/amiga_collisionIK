@@ -6,7 +6,7 @@ ee_fixed_joints: [ "amiga_gripper_palm_tool0" ]
 starting_config: [ 1.4486, -1.5882, 2.8274, -1.7977, 2.9845, -0.192 ]
 collision_file_name: "amiga_collisions.yaml"
 collision_nn_file: "amiga_nn"
-path_to_src: "/root/ros_ws/src/relaxed_ik/src"
+path_to_src: "/root/ros_ws/src/ur10e_robotiq/relaxed_ik/src"
 axis_types: [ [ "z", "y", "y", "y", "z", "y" ] ]
 velocity_limits: [ 3.14, 3.14, 3.14, 6.28, 6.28, 6.28 ]
 joint_limits: [ [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793], [-3.141592653589793,3.141592653589793] ]
