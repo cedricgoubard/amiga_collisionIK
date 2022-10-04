@@ -13,7 +13,12 @@ sample_states: [
   [ 0.11, -0.53,  2.43,  2.78, -0.52,  1.03],
   [ 2.86, -0.44,  2.64,  2.35,  1.03, -0.64],
   [ 2.96, -0.62,  2.53,  2.94,  1.45, -0.95],
-  [ 2.88,  -1.34, 2.77,  2.83,  1.65, -1.65]
+  [ 2.88, -1.34,  2.77,  2.83,  1.65, -1.65],
+  [-2.02, -2.89, -1.85,  1.55,  2.04, -2.43],
+  [-1.24, -2.90, -1.88,  1.50,  1.34, -2.30],
+  [-1.33, -3.12, -1.73,  1.73,  1.34, -2.30],
+  [-1.33, -3.14, -1.71,  1.73,  1.34, -2.30],
+  [-1.33,  2.98, -0.86,  1.03,  1.34, -2.30]
   ]
 training_states: [
   [ 1.05,  2.64,  2.80, -1.05,  2.49,  0.89],
@@ -41,11 +46,17 @@ boxes:
     rotation: [0,0,0]
     translation: [0,0.02, -0.275]
 
-  - name: robot_base_front
-    parameters: [0.5, 0.2, 0.38]
+  - name: robot_base_front_high
+    parameters: [0.5, 0.1, 0.19]
     coordinate_frame: 0
     rotation: [0,0,0]
-    translation: [0, 0.35, -0.3]
+    translation: [0, 0.31, -0.185]
+
+  - name: robot_base_front_low
+    parameters: [0.5, 0.2, 0.19]
+    coordinate_frame: 0
+    rotation: [0,0,0]
+    translation: [0, 0.35, -0.375]
 
   - name: robot_base_back
     parameters: [0.5, 0.2, 0.38]
@@ -53,11 +64,36 @@ boxes:
     rotation: [0,0,0]
     translation: [0, -0.4, -0.3]
   
-  - name: floor
-    parameters: [2, 2, 0.05]
-    coordinate_frame: 0
-    rotation: [0,0,0]
-    translation: [0, 0, -0.3]
+  # - name: floor
+  #   parameters: [2, 2, 0.05]
+  #   coordinate_frame: 0
+  #   rotation: [0,0,0]
+  #   translation: [0, 0, -0.3]
+
+  # - name: test0
+  #   parameters: [0.05, 0.1, 0.15]
+  #   coordinate_frame: 6
+  #   rotation: [0,0,0]
+  #   translation: [0, 0, -0.3]
+
+  # - name: test1
+  #   parameters: [0.1, 0.2, 0.3]
+  #   coordinate_frame: 7
+  #   rotation: [0,0,0]
+  #   translation: [0, 0, -0.3]
+
+  # - name: test2
+  #   parameters: [0.2, 0.3, 0.4]
+  #   coordinate_frame: 8
+  #   rotation: [0,0,0]
+  #   translation: [0, 0, -0.3]
+
+  # - name: tes3
+  #   parameters: [0.05, 0.1, 0.15]
+  #   coordinate_frame: 9
+  #   rotation: [0,0,0]
+  #   translation: [0, 0, -0.3]
+
 
   # - name: gripper_cam_mount
   #   parameters: [0.05, 0.05, 0.05]
@@ -66,29 +102,29 @@ boxes:
   #   translation: [0.15, -0.07, -0.055]
 
   - name: eef
-    parameters: [0.3, 0.15, 0.15]
+    parameters: [0.15, 0.15, 0.3]
     coordinate_frame: 7
     rotation: [0, 0, 0]
-    translation: [0.23, 0, 0]
+    translation: [0, 0, 0.23]
 
 spheres:
   - name: gripper_cam_1
     parameters: 0.04
     coordinate_frame: 7
     rotation: [0, 0, 0]
-    translation: [0.15, -0.1, -0.095]
+    translation: [0.1, 0.095, 0.15]
   
   - name: gripper_cam_2
     parameters: 0.04
     coordinate_frame: 7
     rotation: [0, 0, 0]
-    translation: [0.15, -0.135, -0.05]
+    translation: [0.135, 0.05, 0.15]
   
   - name: gripper_cam_3
     parameters: 0.04
     coordinate_frame: 7
     rotation: [0, 0, 0]
-    translation: [0.15, -0.07, -0.13]
+    translation: [0.07, 0.13, 0.15]
 ellipsoids:
 capsules:
 cylinders:
