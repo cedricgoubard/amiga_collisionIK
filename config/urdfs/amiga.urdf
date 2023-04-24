@@ -519,7 +519,7 @@
   <link name="amiga_arm_base_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/base.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/base.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -527,7 +527,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/base.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/base.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -547,7 +547,7 @@
   <link name="amiga_arm_shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/shoulder.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/shoulder.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -555,7 +555,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/shoulder.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/shoulder.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -575,7 +575,7 @@
   <link name="amiga_arm_upper_arm_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/upperarm.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/upperarm.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -583,7 +583,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/upperarm.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/upperarm.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -603,7 +603,7 @@
   <link name="amiga_arm_forearm_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/forearm.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/forearm.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -611,7 +611,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/forearm.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/forearm.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -631,7 +631,7 @@
   <link name="amiga_arm_wrist_1_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/wrist1.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/wrist1.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -639,7 +639,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/wrist1.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/wrist1.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -659,7 +659,7 @@
   <link name="amiga_arm_wrist_2_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/wrist2.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/wrist2.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -667,7 +667,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/wrist2.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/wrist2.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -687,7 +687,7 @@
   <link name="amiga_arm_wrist_3_link">
     <visual>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/visual/wrist3.dae"/>
+        <mesh filename="package://ur_description/meshes/ur10e/visual/wrist3.dae"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -695,7 +695,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_e_description/meshes/ur10e/collision/wrist3.stl"/>
+        <mesh filename="package://ur_description/meshes/ur10e/collision/wrist3.stl"/>
       </geometry>
     </collision>
     <inertial>
